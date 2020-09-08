@@ -1,24 +1,9 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <style type="text/css">
-            body{
-                background-color: darkslategray;
-                color: white;
-                font-family: 'Courier New', Courier, monospace;
-                text-align: center;
-                margin-top: 100px;
-            }
-            p{
-                color: lightslategray;
-                font-weight: bold;
-                font-size: 16px;
-            }
-        </style>
-
+    <head> 
         <title>Pagina teste GIT</title>
         <meta charset="UTF-8"> 
-
+        <link rel="stylesheet" href="css/style.css">
 
     </head> 
     <body>
@@ -28,5 +13,13 @@
         <p>
             Bem-vindo!!
         </p>
+        <input type="button" id="botaoTeste" value="Clique aqui" onclick="botaoTesta();"> 
+
+        <script>  
+            function botaoTesta(){
+                window.alert('Mensagem alerta');
+            };
+        </script>
+
     </body>
 </html>
